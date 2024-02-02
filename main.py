@@ -1,4 +1,4 @@
-#pip install fastapi uvicorn
+# pip install fastapi uvicorn -q
 
 # 1. Library imports
 import uvicorn
@@ -31,7 +31,7 @@ def get_famous_boxer(number: int):
     else:
         return {number:"We only know Top 10 boxers"}
     
-    
+
 # 5. Run the API with uvicorn
 #    Will run on http://127.0.0.1:8000
 if __name__ == '__main__':
